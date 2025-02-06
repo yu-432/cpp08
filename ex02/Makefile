@@ -6,15 +6,15 @@
 #    By: yooshima <yooshima@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/29 23:19:15 by yooshima          #+#    #+#              #
-#    Updated: 2025/02/06 15:05:07 by yooshima         ###   ########.fr        #
+#    Updated: 2025/02/06 15:05:27 by yooshima         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		:= span
+NAME		:= mutant
 CXX			:= c++
 CPPFLAGS	:= -Wall -Wextra -Werror -std=c++98
 
-SRCS		:= main.cpp Span.cpp
+SRCS		:= main.cpp
 OBJS		:= $(SRCS:.cpp=.o)
 
 all:	$(NAME)
