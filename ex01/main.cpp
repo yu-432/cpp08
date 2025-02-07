@@ -6,7 +6,7 @@
 /*   By: yooshima <yooshima@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 17:25:39 by yooshima          #+#    #+#             */
-/*   Updated: 2025/02/07 17:24:22 by yooshima         ###   ########.fr       */
+/*   Updated: 2025/02/07 19:10:12 by yooshima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int main() {
   std::cout << sp1.shortestSpan() << std::endl;
   std::cout << sp1.longestSpan() << std::endl;
 
-  Span sp2 = Span(20000);
+  Span sp2 = Span(10);
   sp2.fillRandNumber();
   std::cout << sp2.shortestSpan() << std::endl;
   std::cout << sp2.longestSpan() << std::endl;

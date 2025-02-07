@@ -6,7 +6,7 @@
 /*   By: yooshima <yooshima@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 17:26:15 by yooshima          #+#    #+#             */
-/*   Updated: 2025/02/07 17:18:12 by yooshima         ###   ########.fr       */
+/*   Updated: 2025/02/07 19:07:04 by yooshima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ class Span {
   // }
 
  private:
-  Span();  // 使用して欲しくない
+  Span();
   std::vector<int> _vector;
   unsigned int _vecLen;
   unsigned int _currentLen;

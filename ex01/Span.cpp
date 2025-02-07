@@ -6,7 +6,7 @@
 /*   By: yooshima <yooshima@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 17:26:17 by yooshima          #+#    #+#             */
-/*   Updated: 2025/02/07 17:18:38 by yooshima         ###   ########.fr       */
+/*   Updated: 2025/02/07 19:11:47 by yooshima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ Span::Span(unsigned int len) : _vecLen(len), _currentLen(0), _isSorted(false) {
 }
 
 Span::Span(const Span& src) {
-  _vector = src._vector;  // ちゃんと別物として代入されてる？
+  _vector = src._vector;
   _vecLen = src._vecLen;
   _currentLen = src._currentLen;
   _isSorted = src._isSorted;
@@ -47,7 +47,7 @@ void Span::addNumber(int nb) {
 void Span::fillRandNumber() {
   std::srand(time(NULL));
   try {
-    while (true) addNumber(std::rand() * std::rand());
+    while (true) addNumber(std::rand());
   } catch (std::exception& e) {
   }
 }
@@ -79,5 +79,5 @@ unsigned int Span::longestSpan() {
     std::sort(_vector.begin(), _vector.end());
     _isSorted = true;
   }
-  return *(_vector.begin()) - *(_vector.end());
+  return *(--(_vector.end())) - *(_vector.begin());
 }
