@@ -6,11 +6,11 @@
 #    By: yooshima <yooshima@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/29 23:19:15 by yooshima          #+#    #+#              #
-#    Updated: 2025/02/05 10:58:06 by yooshima         ###   ########.fr        #
+#    Updated: 2025/02/07 17:24:06 by yooshima         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		:= easyfimd
+NAME		:= easyfind
 CXX			:= c++
 CPPFLAGS	:= -Wall -Wextra -Werror -std=c++98
 

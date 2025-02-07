@@ -6,7 +6,7 @@
 /*   By: yooshima <yooshima@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 15:05:30 by yooshima          #+#    #+#             */
-/*   Updated: 2025/02/07 16:35:32 by yooshima         ###   ########.fr       */
+/*   Updated: 2025/02/07 17:24:40 by yooshima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,6 @@ int main() {
   }
   std::stack<int> s1(mstack);
 
-  
   std::cout << "-----list-----" << std::endl;
   std::list<int> mlist;
   mlist.push_back(5);

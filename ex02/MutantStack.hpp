@@ -6,7 +6,7 @@
 /*   By: yooshima <yooshima@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/06 15:05:32 by yooshima          #+#    #+#             */
-/*   Updated: 2025/02/07 17:05:28 by yooshima         ###   ########.fr       */
+/*   Updated: 2025/02/07 17:34:19 by yooshima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,8 @@ class MutantStack : public std::stack<T> {
   };
 
   typedef typename std::stack<T>::container_type::iterator iterator;
-  iterator begin() { return this->c.begin(); };  //
-  iterator end() { return this->c.end(); };      //
+  iterator begin() { return this->c.begin(); };
+  iterator end() { return this->c.end(); };
 };
 
 #endif

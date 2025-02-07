@@ -6,7 +6,7 @@
 /*   By: yooshima <yooshima@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 10:58:19 by yooshima          #+#    #+#             */
-/*   Updated: 2025/02/05 17:24:31 by yooshima         ###   ########.fr       */
+/*   Updated: 2025/02/07 17:23:55 by yooshima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int main(void) {
     for (int j = 0; j < 10; j++) {
       l1.push_back(j);
     }
-  }  
+  }
   int k = 0;
   for (std::list<int>::iterator it = l1.begin(); it != l1.end(); ++it) {
     std::cout << k << ": " << &(*it) << std::endl;

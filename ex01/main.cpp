@@ -6,7 +6,7 @@
 /*   By: yooshima <yooshima@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 17:25:39 by yooshima          #+#    #+#             */
-/*   Updated: 2025/02/06 15:01:29 by yooshima         ###   ########.fr       */
+/*   Updated: 2025/02/07 17:24:22 by yooshima         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,12 @@
 int main() {
   Span sp1 = Span(5);
   try {
-  sp1.addNumber(6);
-  sp1.addNumber(3);
-  sp1.addNumber(17);
-  sp1.addNumber(9);
-  sp1.addNumber(11);
-  // sp1.addNumber(12); 
+    sp1.addNumber(6);
+    sp1.addNumber(3);
+    sp1.addNumber(17);
+    sp1.addNumber(9);
+    sp1.addNumber(11);
+    // sp1.addNumber(12);
   } catch (std::exception& e) {
     std::cout << e.what() << std::endl;
   }
